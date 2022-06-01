@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  featureform:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-31T17:33:46.159026-07:00"
+    dependencies:
+    - name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-etcd
+      version: 8.0.1
+    description: A Helm chart for Kubernetes
+    digest: c84761ba9226f6e0b490a14c35ecda3521401769bd49ffa47c49c28b3e01856d
+    name: featureform
+    type: application
+    urls:
+    - featureform-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-31T17:33:46.151651-07:00"
